@@ -51,7 +51,7 @@ void main() {
   double luongThucLanh = tongLuongTruocThue - thue;
 
   // In kết quả
-  print("\n--- KẾT QUẢ ---");
+  print("\n---- KẾT QUẢ ----");
   print("Họ tên: $hoTen");
   print("Tổng lương trước thuế: ${tongLuongTruocThue.toStringAsFixed(0)} VND");
   print("Thuế thu nhập: ${thue.toStringAsFixed(0)} VND");
