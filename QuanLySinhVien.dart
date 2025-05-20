@@ -44,7 +44,7 @@ void main() {
   // Tính thuế dựa trên tổng lương trước thuế
   if (tongLuongTruocThue > 10000000) {
     thue = tongLuongTruocThue * 0.1;
-  } else if (tongLuongTruocThue >= 7000000) {
+  } else if (tongLuongTruocThue >= 7000000 && tongLuongTruocThue <= 10000000) {
     thue = tongLuongTruocThue * 0.05;
   }
 
